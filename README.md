@@ -1,6 +1,6 @@
 # link of my app is -:
 
-# https://kk095.github.io/react-album/
+# https://Pallavi3010.github.io/react-album/
 
 ## Getting Started with Create React App
 
