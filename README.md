@@ -72,3 +72,72 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### Folder Structure
+React Album
+│   .gitignore
+│   package-lock.json
+│   package.json
+│   README.md
+│   tree.txt
+│   
+├───public
+│       favicon.ico
+│       index.html
+│       manifest.json
+│       
+└───src
+    │   App.css
+    │   App.js
+    │   index.css
+    │   index.js
+    │   reportWebVitals.js
+    │   
+    ├───pages
+    │   ├───AlbumList
+    │   │       index.js
+    │   │       styles.css
+    │   │       
+    │   ├───Footer
+    │   │       index.js
+    │   │       styles.css
+    │   │       
+    │   ├───Header
+    │   │       index.js
+    │   │       styles.css
+    │   │       
+    │   ├───PageNotFound
+    │   │       index.js
+    │   │       styles.css
+    │   │       
+    │   ├───Photo
+    │   │       index.js
+    │   │       styles.css
+    │   │       
+    │   └───PhotoList
+    │           index.js
+    │           styles.css
+    │           
+    ├───routes
+    │       MainRoutes.js
+    │       
+    ├───services
+    │       api.js
+    │       
+    └───shared
+        ├───Loading
+        │       index.js
+        │       loading.png
+        │       styles.css
+        │       
+        ├───PagesBackButton
+        │       index.js
+        │       styles.css
+        │       
+        ├───ScrollToTop
+        │       index.js
+        │       styles.css
+        │       
+        └───Title
+                index.js
+                styles.css
