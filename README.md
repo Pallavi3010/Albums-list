@@ -1,6 +1,6 @@
 # link of my app is -:
 
-# https://pallavi3010.github.io/react-album
+# https://albums-list-react.netlify.app/
 
 ## Getting Started with Create React App
 
